@@ -1,0 +1,60 @@
+1.
+Término que se refiere a la accesibilidad que tiene una variable, función u objeto.
+Scope
+
+2.
+¿Qué sucederá si ejecutamos el siguiente código?
+ nameOfDog("Elmo"); function nameOfDog(name) { console.log(name); }; 
+Se muestra en consola el siguiente mensaje: "Elmo".
+
+3.
+¿Cuál de las siguientes opciones NO se puede considerar como una variable global?
+var = “I am global”;
+
+4.
+¿Cuál es el alcance que tiene el function scope?
+Se puede acceder a una variable que se ubica dentro de una función, pero no podemos llamarla desde el ámbito global.
+
+5.
+Variables declaradas con "let" y "const" son de "block scope"
+Verdadero
+
+6.
+Es el tipo de dato que se asigna por defecto al declarar una variable.
+Undefined
+
+7.
+¿Para qué se utiliza el modo estricto en JavaScript?
+Es un modo de trabajo que nos asegura que cada variable está definida al momento de crear nuestro código.
+
+8.
+¿En qué momento se genera una closure?
+Cuando una función accede a una variable fuera de su contexto y la recuerda.
+
+9.
+Las variables declaradas con let y const, NO se pueden volver a declarar en el mismo ámbito.
+Verdadero
+
+10.
+¿Qué es Code Runner?
+Es un plugin de Visual Studio Code que permite ejecutar el código dentro del editor.
+
+11.
+Analiza el siguiente código e identifica la variable declarada en el alcance de la función:
+
+const fruits = () => { if (true) { var fruit1 = 'apple'; const fruit2 = 'banana'; let fruit3 = 'kiwi'; } }
+Todas las opciones son correctas.
+REPASAR CLASE
+var fruit1 = 'apple'; 
+
+12.
+JavaScript solo utiliza el hoisting en declaraciones, mas no en inicializaciones
+Falso
+REPASAR CLASE
+Verdadero
+
+13.
+¿La herramienta de Google Chrome que nos permite hacer debugging se llama?
+Developer Tools
+REPASAR CLASE
+Dev Tools
