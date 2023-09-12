@@ -15,3 +15,5 @@ function nameOfDog() {
 }
 
 var elmo = 'Elmo';
+
+nameOfDog("Elmo"); function nameOfDog(name) { console.log(name); }; 
